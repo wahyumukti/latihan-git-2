@@ -1,3 +1,27 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+nav{
+    height: 70px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ nav .logo h3{
+     color: gold;
+ }
+nav .menu{
+    width: 200px;
+}
+nav .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav .menu ul li a{
+    text-decoration: none;
+}
